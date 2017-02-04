@@ -1,0 +1,64 @@
+[
+  {
+    "name": "abstract",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "excerpts",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "html_url",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "pdf_url",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "document_number",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "public_inspection_pdf_url",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "publication_date",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "title",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "type",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "agencies",
+    "type": "RECORD",
+    "mode": "repeated",
+    "fields": [
+      {
+        "name": "name",
+        "type": "string",
+        "mode": "nullable"
+      },
+      {
+        "name": "id",
+        "type": "integer",
+        "mode": "nullable"
+      }
+    ]
+  }
+]
